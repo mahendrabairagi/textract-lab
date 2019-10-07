@@ -7,22 +7,25 @@ Amazon Textract is a service that automatically extracts text and data from scan
 Output of Textract is a json. This lab shows to parse Textract Jsob
 
 Lab Steps:
-1. Open SageMaker Notebook
 
-2. On Sagemaker Notebook, select new Terminal
+1. Prerequesite: Make sure SageMaker IAM role has full access to Textract
 
-3. This will open new linux terminal on SageMaker Notebook
+2. Open SageMaker Notebook
 
-4. In terminal change directory to "Sagemaker"
+3. On Sagemaker Notebook, select new Terminal
+
+4. This will open new linux terminal on SageMaker Notebook
+
+5. In terminal change directory to "Sagemaker"
 ``` 
 cd ~/Sagemaker 
 ```
-5. Clone git
+6. Clone git
 ```
 git clone https://github.com/mahendrabairagi/textract-lab.git
 ```
 
-6. Go to SageMaker Notebook, you will see notebook "Textract_Sample.ipynb" and supporting python file "trp.py"
+7. Go to SageMaker Notebook, you will see notebook "Textract_Sample.ipynb" and supporting python file "trp.py"
 
-7. Open notebook and follow direction on the notebook
+8. Open notebook and follow direction on the notebook
 
